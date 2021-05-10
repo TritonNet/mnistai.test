@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mnistai.console", "mnistai.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mnistai.cpu", "mnistai.cpu\mnistai.cpu.vcxproj", "{287F2AA5-6F45-4A89-8267-A5FBAF87C0C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mnistai.common", "mnistai.common\mnistai.common.vcxproj", "{D9354012-E8C8-49A1-BAC8-1F2041235F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{287F2AA5-6F45-4A89-8267-A5FBAF87C0C1}.Release|x64.Build.0 = Release|x64
 		{287F2AA5-6F45-4A89-8267-A5FBAF87C0C1}.Release|x86.ActiveCfg = Release|Win32
 		{287F2AA5-6F45-4A89-8267-A5FBAF87C0C1}.Release|x86.Build.0 = Release|Win32
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Debug|x64.ActiveCfg = Debug|x64
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Debug|x64.Build.0 = Debug|x64
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Debug|x86.Build.0 = Debug|Win32
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Release|x64.ActiveCfg = Release|x64
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Release|x64.Build.0 = Release|x64
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Release|x86.ActiveCfg = Release|Win32
+		{D9354012-E8C8-49A1-BAC8-1F2041235F37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,8 +3,6 @@
 
 #include "pch.h"
 #include "framework.h"
-
-// TODO: This is an example of a library function
-void fnmnistaicpu()
-{
-}
+#include <fstream>
+#include <iostream>
+#include "mnistai_cpu.h"
