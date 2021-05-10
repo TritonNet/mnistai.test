@@ -21,7 +21,7 @@ int main()
 
 		for (size_t idx = 0; idx < dataset.training_images.size(); idx++)
 		{
-			const auto path = MNIST_DATA_LOCATION + "\\images\\" + std::to_string(idx) + ".jpg";
+			const auto path = MNIST_DATA_LOCATION + "\\images\\img_" + std::to_string(idx) + "_lbl - "+ std::to_string(dataset.training_labels[idx]) + ".jpg";
 
 			 bitmap_image(28, 28, dataset.training_images[idx])
 				 .save_image(path);
